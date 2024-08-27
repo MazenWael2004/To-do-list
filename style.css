@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    background: linear-gradient(135deg,#153677,#4e085f);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Set body height to full viewport height */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+
+}
+
+.box {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    width: 50%;
+    max-width: 400px; /* Set a maximum width */
+    border-radius: 12px;
+}
+
+h2 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: hwb(220 8% 33%);
+}
+#add-task{
+    background-color: hsl(0, 0%, 84%);
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    width: 70%;
+    font-family: QuickSand;
+    font-weight: 700;
+    outline: none;
+
+}
+.add-button{
+    color: white;
+    background-color: hsl(0, 100%, 60%);
+    padding: 15px;
+    border-radius: 20px;
+    width: 125px;
+    border: none;
+    font-family: QuickSand;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    bottom: 46px;
+    left: 100px;
+    transition: all 0.3s ease;
+
+}
+button:hover{
+    border-color: #0b2c7e;
+    background-color: #2638db;
+}
+#add-task:hover{
+   outline: none;
+}
+ul{
+margin-top: -10px;
+  font-size: 18px;
+ list-style: none;
+}
+ul li{
+    padding: 10px;
+    text-align: left;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+li{
+    cursor: pointer;
+}
+
+.task-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove-button{
+   cursor: pointer;
+   font-weight: 100;
+}
